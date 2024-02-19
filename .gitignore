@@ -1,0 +1,3 @@
+# This file specifies ignored files from Git
+node_modules
+package-lock.json

@@ -1,0 +1,28 @@
+{
+  "name": "NevermoreLoaderIssues",
+  "globIgnorePaths": [ "**/.package-lock.json" ],
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "Nevermore": {
+        "$className": "Folder",
+        "game": {
+          "$path": "modules"
+        },
+        "node_modules": {
+          "$path": "node_modules"
+        }
+      },
+      "Scripts": {
+        "$path": "scripts/Server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Scripts": {
+          "$path": "scripts/Client"
+        }
+      }
+    }
+  }
+}
